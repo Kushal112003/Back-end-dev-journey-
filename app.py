@@ -3,7 +3,6 @@ import joblib
 
 app = Flask(__name__)
 
-# Load your trained model
 model = joblib.load('model.pkl')
 
 @app.route('/')
